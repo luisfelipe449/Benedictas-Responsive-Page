@@ -1,18 +1,7 @@
 .btn {
     cursor: pointer;
-    margin: 20px;
-    
   }
   
-  .icon-bar {
-    width: 22px;
-    height: 2px;
-    background: white;
-    margin: 3px;
-    position: relative;
-  }
-  
-
 mat-toolbar.header{
     position: sticky;
 }
@@ -80,18 +69,17 @@ span.subtitle{
 
 @media (max-width: 768px) {
 
-
-  .btn{
-     margin-left: 100px;
-     margin-right: 0px;
-  }
+  
+    .btn{
+        margin-left: 30px;
+    }
 
     #headerLogo{
         display: block;
         width: 100px;
         height: 45px;
         filter: invert(100%) sepia(0%) saturate(7453%) hue-rotate(125deg) brightness(124%) contrast(99%);
-        margin: 0;
+        margin-left: 20px;
     }
 
     span.easter-egg{
@@ -106,6 +94,7 @@ span.subtitle{
         display: block;
         color: white;
         font-size: 100%;
+        left: 0;
     }
 
     span{

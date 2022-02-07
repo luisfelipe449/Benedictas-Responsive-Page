@@ -11,28 +11,41 @@ import { MentoriaComponent } from './modules/terapias/mentoria/mentoria.componen
 import { ReikiComponent } from './modules/terapias/reiki/reiki.component';
 
 const routes: Routes = [{
-  path:'', component: HomeComponent,
-},{
-  path:'artesanatos/escapularios', component: EscapulariosComponent,
-},{
-  path:'artesanatos/japamalas', component: JapamalasComponent,
-},{
-  path:'artesanatos/pingentes', component: PingentesComponent,
+  path:'',
+  component: HomeComponent,
 },
-{
-  path:'artesanatos/pingentes', component: PingentesComponent,
-},{
-  path:'terapias/bioalinhamento', component: BioalinhamentoComponent,
-},{
-  path:'terapias/coaching', component: CoachingComponent,
-},{
-  path:'terapias/constelacao', component: ConstelacaoComponent,
-},{
-  path:'terapias/mentoria', component: MentoriaComponent,
-},{
-  path:'terapias/reiki', component: ReikiComponent,
-},
-
+  {
+    path: 'terapias/coach',
+    component: CoachingComponent,
+  },
+  {
+    path: 'terapias/bioalinhamento',
+    component: BioalinhamentoComponent,
+  },
+  {
+    path: 'terapias/constelacao',
+    component: ConstelacaoComponent,
+  },
+  {
+    path: 'terapias/mentoria',
+    component: MentoriaComponent,
+  },
+  {
+    path: 'terapias/reiki',
+    component: ReikiComponent,
+  },
+  {
+    path: 'artesanatos/escapularios',
+    component: EscapulariosComponent,
+  },
+  {
+    path: 'artesanatos/japamalas',
+    component: JapamalasComponent,
+  },
+  {
+    path: 'artesanatos/pingentes',
+    component: PingentesComponent,
+  },
 ];
 
 @NgModule({
