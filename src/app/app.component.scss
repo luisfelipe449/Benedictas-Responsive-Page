@@ -1,0 +1,100 @@
+mat-toolbar.header{
+    position: sticky;
+}
+
+mat-toolbar-row{
+    justify-content: center;
+    width: 100vw;
+}
+
+mat-toolbar a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+   
+}
+
+mat-sidenav-container { 
+    height: 100vh;
+    
+} 
+
+mat-sidenav{
+  background-color: #C62828;
+}
+
+mat-sidenav-content{
+    
+    width: 100vw;
+    
+  }
+
+mat-nav-list a{
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+
+mat-nav-list a:hover{
+    padding: 1px;
+    background-color: #D32F2F;
+}
+
+#headerLogo{
+    width: 100px;
+    filter: invert(100%) sepia(0%) saturate(7453%) hue-rotate(125deg) brightness(124%) contrast(99%);
+}
+
+span.easter-egg{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+
+span.subtitle{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+}
+.title{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+}
+
+
+@media (max-width: 768px) {
+
+
+    button{
+        margin-left: 120px;
+    }
+
+    #headerLogo{
+        display: block;
+        width: 100px;
+        height: 45px;
+        filter: invert(100%) sepia(0%) saturate(7453%) hue-rotate(125deg) brightness(124%) contrast(99%);
+        margin: 0;
+    }
+
+    span.easter-egg{
+        color: white;
+        display: block;
+        position: fixed;
+        bottom: 0;
+        
+    }
+
+    span.title{
+        display: block;
+        color: white;
+        font-size: 90%
+    }
+
+    span{
+        display: none;
+    }
+
+
+  }
