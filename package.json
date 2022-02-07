@@ -22,11 +22,12 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "angular-animations": "^0.11.0",
     "angular-image-slider": "^0.0.9",
     "express": "^4.17.2",
     "material-design-icons": "^3.0.1",
     "ng-image-slider": "^2.8.0",
-    "rxjs": "~7.5.0",
+    "rxjs": "^6.3.3",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
