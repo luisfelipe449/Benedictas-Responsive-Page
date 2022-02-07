@@ -1,20 +1,25 @@
  
       
-        <mat-toolbar class="header" color="primary">
-          <mat-toolbar-row>
-            <button mat-button (click)="sidenav.toggle()">
-              <mat-icon>menu</mat-icon>
-            </button>
-            <img id ="headerLogo" src="../assets/Lotus-Flower.svg" alt="">
-            <a routerLink="/"><span class="title">Benedicta's</span></a>
-            <a routerLink="/"><span class="subtitle">Lembrancinhas criativas</span></a>
-            <a routerLink="/"><span></span></a>
-            <a routerLink="/"><span></span></a>
-          </mat-toolbar-row>
-        </mat-toolbar>
+          <mat-toolbar  class="header" color="primary">
+            <mat-toolbar-row>
+              
+                <button class="btn" mat-button (click)="sidenav.toggle()" (click)="onClick()" class="btn">
+                  <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'topX'"></div>
+                  <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'hide'"></div>
+                  <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'bottomX'"></div>
+                
+              </button>
+              <img id ="headerLogo" src="../assets/Lotus-Flower.svg" alt="">
+              <a routerLink="/"><span class="title">Benedicta's</span></a>
+              <a routerLink="/"><span class="subtitle">Lembrancinhas criativas</span></a>
+              <a routerLink="/"><span></span></a>
+              <a routerLink="/"><span></span></a>
+            </mat-toolbar-row>
+          </mat-toolbar>
+        
         
           <mat-sidenav-container>
-            <mat-sidenav color="primary" #sidenav>
+            <mat-sidenav color="primary" #sidenav mode="over">
               <mat-nav-list>
                 <a mat-list-item routerLink="/">	<mat-icon>chevron_right</mat-icon>Home</a>
                 <a mat-list-item routerLink="/artesanatos/escapularios"><mat-icon>chevron_right</mat-icon>Escapulários</a>
