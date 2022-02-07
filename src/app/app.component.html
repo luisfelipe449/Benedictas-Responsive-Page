@@ -2,12 +2,12 @@
       
           <mat-toolbar  class="header" color="primary">
             <mat-toolbar-row>
-              <button mat-button (click)="sidenav.toggle()">
-                <div (click)="onClick()" class="btn">
+              
+                <button class="btn" mat-button (click)="sidenav.toggle()" (click)="onClick()" class="btn">
                   <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'topX'"></div>
                   <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'hide'"></div>
                   <div class="icon-bar" [@hamburguerX]="isHamburguer ? 'hamburguer' : 'bottomX'"></div>
-                </div>
+                
               </button>
               <img id ="headerLogo" src="../assets/Lotus-Flower.svg" alt="">
               <a routerLink="/"><span class="title">Benedicta's</span></a>
