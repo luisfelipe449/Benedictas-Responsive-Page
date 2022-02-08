@@ -2,6 +2,7 @@
     <h1>Pingentes</h1>
     <hr>
     <ng-image-slider class="slider" #nav
+    [lazyLoading]="true"
     [images]="imageCollection"
     [infinite]="true"
     [autoSlide]={interval:3,stoponHover:true}></ng-image-slider>
