@@ -15,31 +15,31 @@ export class EscapulariosComponent implements OnInit {
   imageCollection: Array<object> = 
   [
     {
-    image: '../../../../assets/japamala1.jpg',
-    thumbImage: '../../../../assets/japamala1.jpg',
+    image: '../../../../assets/escap1.jpg',
+    thumbImage: '../../../../assets/escap1.jpg',
     alt: 'Japamala 1',
     title: '',
 }, {
-    image: '../../../../assets/japamala2.webp',
-    thumbImage: '../../../../assets/japamala2.webp',
+    image: '../../../../assets/escap2.jpg',
+    thumbImage: '../../../../assets/escap2.jpg',
     title: '',
     alt: 'foto-japamala'
 },
 {
-    image: '../../../../assets/japamala3.png',
-    thumbImage: '../../../../assets/japamala3.png',
+    image: '../../../../assets/escap3.jpg',
+    thumbImage: '../../../../assets/escap3.jpg',
     title: '',
     alt: 'foto-japamala'
 },
 {
-    image: '../../../../assets/japamala4.webp',
-    thumbImage: '../../../../assets/japamala4.webp',
+    image: '../../../../assets/escap4.jpg',
+    thumbImage: '../../../../assets/escap4.jpg',
     title: '',
     alt: 'foto-japamala'
 },
 {
-    image: '../../../../assets/japamal5.jpg',
-    thumbImage: '../../../../assets/japamal5.jpg',
+    image: '../../../../assets/escap1.jpg',
+    thumbImage: '../../../../assets/escap1.jpg',
     title: '',
     alt: 'foto-japamala'
 },

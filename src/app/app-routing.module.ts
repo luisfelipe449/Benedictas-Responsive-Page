@@ -15,7 +15,7 @@ const routes: Routes = [{
   component: HomeComponent,
 },
   {
-    path: 'terapias/coach',
+    path: 'terapias/coaching',
     component: CoachingComponent,
   },
   {

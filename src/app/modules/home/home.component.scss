@@ -46,9 +46,19 @@ h1{
     padding-top: 30px;
 }
 
+p{
+    text-align: justify;
+}
+
 @media (max-width: 768px) {
     .conteudo{
         margin: 0 10px 50px 10px;
+        line-height: 20px;
     }
 
+    .banner{
+        width: 50%;
+        float: left;
+        margin: 0;
+    }
 }

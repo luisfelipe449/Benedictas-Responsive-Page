@@ -15,31 +15,31 @@ export class PingentesComponent implements OnInit {
   imageCollection: Array<object> = 
   [
     {
-    image: '../../../../assets/japamala1.jpg',
-    thumbImage: '../../../../assets/japamala1.jpg',
+    image: '../../../../assets/ping1.webp',
+    thumbImage: '../../../../assets/ping1.webp',
     alt: 'Japamala 1',
     title: '',
 }, {
-    image: '../../../../assets/japamala2.webp',
-    thumbImage: '../../../../assets/japamala2.webp',
+    image: '../../../../assets/ping2.webp',
+    thumbImage: '../../../../assets/ping2.webp',
     title: '',
     alt: 'foto-japamala'
 },
 {
-    image: '../../../../assets/japamala3.png',
-    thumbImage: '../../../../assets/japamala3.png',
+    image: '../../../../assets/ping3.jpg',
+    thumbImage: '../../../../assets/ping3.jpg',
     title: '',
     alt: 'foto-japamala'
 },
 {
-    image: '../../../../assets/japamala4.webp',
-    thumbImage: '../../../../assets/japamala4.webp',
+    image: '../../../../assets/ping4.webp',
+    thumbImage: '../../../../assets/ping4.webp',
     title: '',
     alt: 'foto-japamala'
 },
 {
-    image: '../../../../assets/japamal5.jpg',
-    thumbImage: '../../../../assets/japamal5.jpg',
+    image: '../../../../assets/ping1.webp',
+    thumbImage: '../../../../assets/ping1.webp',
     title: '',
     alt: 'foto-japamala'
 },
