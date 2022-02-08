@@ -3,7 +3,7 @@
           <mat-toolbar  class="header" color="primary">
             <mat-toolbar-row>
               
-                <button mat-button (click)="sidenav.toggle()" class="btn" [@fadeInOnEnter]>
+                <button mat-button (click)="sidenav.toggle()" class="btn">
                  <mat-icon  class="btn" *ngIf="!sidenav.opened" >menu</mat-icon>
                  <mat-icon  class="btn" *ngIf="sidenav.opened" >close</mat-icon>
               </button>
