@@ -2,8 +2,9 @@
 @import '@angular/material/theming';
 @include mat-core();
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 
 $custom-app-primary: mat-palette($mat-red, 800);
 $custom-app-secondary: mat-palette($mat-red, 500);
@@ -18,7 +19,7 @@ $custom-theme: mat-light-theme($custom-app-primary, $custom-app-secondary, $cust
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 
@@ -27,3 +28,10 @@ html{ font-size: 62.5%;
   overflow-y: hidden }
 body { margin: 0; 
         font-size: 1.6rem}
+span,p,h1,h2,h3,li{
+  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+  
+}
+p{
+  text-indent: 1.5ch;
+}
