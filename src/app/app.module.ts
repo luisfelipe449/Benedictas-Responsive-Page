@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { RouterModule, UrlSegment } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
@@ -47,7 +48,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
     MatButtonModule,
     CommonModule,
     NgImageSliderModule,
-  ],
+    ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

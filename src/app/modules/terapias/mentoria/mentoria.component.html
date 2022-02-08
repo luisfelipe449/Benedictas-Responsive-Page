@@ -19,10 +19,10 @@
         <h2>Benefícios:</h2>
        
         <ul>
-            <li><mat-icon>done</mat-icon>Transforme sua vida e atinja seus objetivos</li>
-            <li><mat-icon>done</mat-icon>Controle suas emoções</li>
-            <li><mat-icon>done</mat-icon>Trace metas rumo aos seus objetivos</li>
-            <li><mat-icon>done</mat-icon>Controle suas emoções</li>
+            <li><mat-icon class="check">done</mat-icon>Transforme sua vida e atinja seus objetivos</li>
+            <li><mat-icon class="check">done</mat-icon>Controle suas emoções</li>
+            <li><mat-icon class="check">done</mat-icon>Trace metas rumo aos seus objetivos</li>
+            <li><mat-icon class="check">done</mat-icon>Controle suas emoções</li>
         </ul>
         <br>
         <h2>Agende seu horário!</h2>
@@ -31,6 +31,11 @@
             <a id="redes" href="https://www.facebook.com/silbayne.louise" target="_blank"><img clas="svg" src="../../../../assets/facebook-seeklogo.com.svg" alt=""></a>
             <a id="redes" href="https://www.instagram.com/_silbaynesilva/" target="_blank"><img clas="svg" src="../../../../assets/insta-logo-pink.svg" alt=""></a>
             <br>
+            </div>
+            <div>
+                <button mat-button (click)="cancel()">
+                    <mat-icon class="back">skip_previous</mat-icon><span>Voltar</span>
+                </button>
             </div>
     </div>
     </div>

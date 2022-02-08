@@ -5,7 +5,7 @@
     height: 150px;
     display: block;
     margin-bottom: 30px;
-    border-radius: 20%;
+    border-radius: 15%;
 }
 
 
@@ -59,20 +59,28 @@ ul{
     list-style: none;
 }
 
-.material-icons{
+.check{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     vertical-align: middle;
     filter: invert(61%) sepia(89%) saturate(320%) hue-rotate(87deg) brightness(96%) contrast(88%);
+}
+
+span{
+    font-size: 18px;
+}
+
+.back{
+    margin: 20px auto;
+}
+
+button{
+    padding: 0;
 }
 
 @media (max-width: 768px) {
     .conteudo{
         margin: 0 10px 50px 10px;
-    }
-
-    #zap>a>img{
-        margin-bottom: 30px;
     }
 
 }

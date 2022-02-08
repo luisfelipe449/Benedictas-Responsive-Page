@@ -1,4 +1,6 @@
-<div class="tudo">
+
+    <div class="conteudo">
+        
     <h1>Escapulários</h1>
     <hr>
     <ng-image-slider class="slider" #nav
@@ -6,7 +8,7 @@
     [infinite]="true"
     [autoSlide]={interval:3,stoponHover:true}></ng-image-slider>
 
-    <div class="conteudo">
+    
         <h2>O que é o Escapulário?</h2>
         <p>O escapulário é um objeto símbolo da religião cristã católica, que consiste em duas imagens, uma do Sagrado Coração de Jesus Cristo e outra de Nossa Senhora, e possui o significado de "proteção" física e espiritual.
              O escapulário é feito tradicionalmente de pano, mas é atualmente encontrado em diversas formas: escapulários de ouro, de prata, bronze ou mesmo de madeira. </p>
@@ -22,5 +24,9 @@
             <a id="redes" href="https://www.instagram.com/_silbaynesilva/" target="_blank"><img clas="svg" src="../../../../assets/insta-logo-pink.svg" alt=""></a>
             <br>
             </div>
+            <div class="back">
+                <button mat-button (click)="cancel()">
+                    <mat-icon>skip_previous</mat-icon><span>Voltar</span>
+                </button>
+            </div>
     </div>
-</div>

@@ -60,18 +60,23 @@ ul{
 
 .material-icons{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     vertical-align: middle;
-    filter: invert(61%) sepia(89%) saturate(320%) hue-rotate(87deg) brightness(96%) contrast(88%);
+    filter: invert(0%) sepia(45%) saturate(5184%) hue-rotate(246deg) brightness(79%) contrast(91%);
+}
+
+span{
+    font-size: 18px;
+}
+
+.mat-button{
+    padding: 0;
+    margin: 20px auto;
 }
 
 @media (max-width: 768px) {
     .conteudo{
         margin: 0 10px 50px 10px;
-    }
-
-    #zap>a>img{
-        margin-bottom: 30px;
     }
 
 }
